@@ -6,7 +6,7 @@
 # Set up  conditionals that the user guess a number that is randomly generated.
 # part 3
 # I want it to do part 1 but be able to take a range of numbers from user.
-
+# and be able to record number of guesses taken
 
 # Part 1
 
