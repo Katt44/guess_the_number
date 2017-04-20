@@ -7,5 +7,16 @@
 # part 3
 # I want it to do part 1 but be able to take a range of numbers from user.
 
+secret_num = 23
 
+user_guess = int(raw_input("Guess a number between 1 and 25: "))
+
+if user_guess > secret_num:
+	print "Your number is too big!"
+elif user_guess < secret_num:
+	print "your number is too small!"
+elif user_guess == secret_num:
+	print "Yay thats the number!"
+else: 
+	print "Something went wrong!"
 
