@@ -38,7 +38,7 @@ number = random.randint(3,45)
 
 
 for n in range(8): # why range 8?
-	print "Okay" + user_name + " take a guess pick a number between 4 and 44"
+	print "Okay " + user_name + " take a guess pick a number between 4 and 44"
 	user_guess = int(raw_input("> "))
 
 	if user_guess > number:
