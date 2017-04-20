@@ -31,14 +31,14 @@
 import random 
 # how does this import work? importing from where?
 user_name = raw_input("Hello there! Whats your name? ")
-print "Hi" + user_name "We're gonna play a number guessing game!"
+print "Hi " + user_name  + " We're gonna play a number guessing game!"
 print "lets play!" # whats the syntax for  a string to break into a new line without creating a new print
 
 number = random.randint(3,45)
 
 
 for n in range(8): # why range 8?
-	print "Okay" + user_name " take a guess pick a number between 4 and 44"
+	print "Okay" + user_name + " take a guess pick a number between 4 and 44"
 	user_guess = int(raw_input("> "))
 
 	if user_guess > number:
