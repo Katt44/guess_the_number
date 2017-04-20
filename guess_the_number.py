@@ -24,3 +24,11 @@
 #else: 
 #	print "Something went wrong!"
 
+
+
+# Part 2
+
+import random 
+# how does this import work? importing from where?
+guesses_taken = 0
+user_name = raw_input("Hello there! Whats your name? ")
