@@ -51,6 +51,8 @@ for n in range(8): # why range 8?
 	else:
 		print "Nope."
 		print "Just nope. its fucked"
+#  how do i keep track of guesses
+# how do i let the  user put in a range?
 
 
 
